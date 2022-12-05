@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TestTestTestPod'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TestTestTestPod.'
+  s.summary          = 'Meaningful summary'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,9 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'le.david' => 'le.david@art1st.hu' }
-  s.source           = { :git => 'https://github.com/le.david/TestTestTestPod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/longdavid0/TestTestTestPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.swift_versions = '5.0'
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'TestTestTestPod/Classes/**/*'
